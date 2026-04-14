@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Student_Form.css'
 
 
-export default function Student_Form() {
+export default function Student_Form({ onAddLearner }) {
     const [learnerName, setLearnerName] = useState('')  
     const [learnerAge, setLearnerAge] = useState('')
     const [courseTitle, setCourseTitle] = useState('')

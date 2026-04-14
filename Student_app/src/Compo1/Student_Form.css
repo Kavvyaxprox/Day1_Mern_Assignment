@@ -8,13 +8,14 @@
     background-color: #f8f9fa;
 }
 
-.form-container{
+.form-container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: rgba(36, 94, 59, 0.689);
     width: 100%;
+
     
 }
 
@@ -26,7 +27,7 @@
     box-shadow: 0 2px 8px rgba(36, 94, 59, 0.689);
     width: 100%;
     max-width: 400px;
-    
+    justify-content: center;
 }
 
 .container{
@@ -48,10 +49,20 @@
     cursor: pointer;
     column-gap: 10px;
     height: 40px;
+    
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 form{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
+    margin-bottom: 20px;
 } 
+
