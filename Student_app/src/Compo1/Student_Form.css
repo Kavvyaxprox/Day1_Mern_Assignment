@@ -1,0 +1,57 @@
+#root{
+
+    width : 100%;
+}
+
+
+.body{
+    background-color: #f8f9fa;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(36, 94, 59, 0.689);
+    width: 100%;
+    
+}
+
+.card{
+    padding: 30px;
+    border: 1px solid rgb(89, 43, 146);
+    border-radius: 8px;
+    background-color: rgb(129, 37, 37);
+    box-shadow: 0 2px 8px rgba(36, 94, 59, 0.689);
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    color: rgb(5, 5, 5);
+    align-items: center;
+    gap: 100px;
+}
+
+.button{
+    background-color: rgb(235, 243, 238);
+    color: rgb(16, 16, 16);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    column-gap: 10px;
+    height: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+} 
