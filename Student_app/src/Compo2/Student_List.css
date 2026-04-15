@@ -1,10 +1,15 @@
+.list-container{
+    background-color: black;
+}
+
+
 h2{
     text-align: center;
     color: white;
 }
 
 .p{
-    color: gray;
+    color: rgb(255, 251, 251);
     text-align: center;
 }
 
@@ -20,11 +25,11 @@ h2{
 }
 
 .student-card {
-    border: 1px solid #ddd;
+    border: 1px solid #c70505;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    background-color: #fefdfd;
 }
 
 .student-card h3 {
@@ -36,3 +41,4 @@ h2{
     margin: 10px 0;
     color: #666;
 }
+
